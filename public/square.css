@@ -1,0 +1,167 @@
+body {
+  background: #38291f; /* Old browsers */
+  background: -moz-linear-gradient(left,  #38291f 0, #3d2f24 2%, #3d2f24 50%, #38291f 50%, #3d2f24 52%, #453428 52%, #453428 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0,#38291f), color-stop(2%,#3d2f24), color-stop(50%,#3d2f24), color-stop(50%,#38291f), color-stop(52%,#3d2f24), color-stop(52%,#453428), color-stop(100%,#453428)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #38291f 0,#3d2f24 2%,#3d2f24 50%,#38291f 50%,#3d2f24 52%,#453428 52%,#453428 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #38291f 0,#3d2f24 2%,#3d2f24 50%,#38291f 50%,#3d2f24 52%,#453428 52%,#453428 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #38291f 0,#3d2f24 2%,#3d2f24 50%,#38291f 50%,#3d2f24 52%,#453428 52%,#453428 100%); /* IE10+ */
+  background: linear-gradient(to right,  #38291f 0,#3d2f24 2%,#3d2f24 50%,#38291f 50%,#3d2f24 52%,#453428 52%,#453428 100%); /* W3C */
+  background-size: 10%;
+
+
+  /*
+    This is all of the above properties in one line, a shorthand version:
+
+    background: #EFEFEF url('overview.jpg') no-repeat fixed center center;
+  */
+
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 100%;                        /* Reset the default font size to about 16 pixels */
+}
+
+#headmast {
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 4px; /* Slightly curved borders */
+  color: #fff;
+  margin: 3em auto; /* Align to the center */
+  padding: 0.5em 1.5em;
+  width: 60em;
+}
+
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 1.15em;
+}
+
+h1, p {
+  text-shadow: #333 3px 3px 3px;
+}
+
+
+dl {
+  border-top: solid #FFF 1px;
+  float: right;
+  margin-top: 3em;
+  padding-top: 1em;
+  width: 10em;
+}
+
+dt {
+  clear: left;
+  float: left;
+  padding-right: 4em;
+  text-align: right;
+}
+
+
+.panel, #sidebar {
+    border-radius: 4px;
+    color: #EFEFEF;
+  }
+
+  #main {
+    margin: 0 auto;
+    overflow: auto;
+    width: 63em;
+  }
+
+  .panel {
+    background: rgba(0, 0, 0, 0.7);
+    float: left;
+    margin: 0 5em 1.5em 0;
+    padding: 1em;
+    width: 37em;
+  }
+
+  #sidebar {
+    background: rgba(0, 0, 0, 0.8);
+    float: right;
+    padding: 0.5em;
+    width: 18em;
+  }
+
+  .panel p, .panel h2, #sidebar p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 0.5em;
+  }
+
+  .panel h2 {
+    border-bottom: solid #DDD 2px;
+  }
+
+  /* Sidebar Picture */
+
+  #sidebar #picture {
+    overflow: hidden;
+    position: relative; /* Explain general relativity */
+  }
+
+  #sidebar #picture img {
+    border-radius: 4px;
+    margin-bottom: 1.5em;
+    width: 100%;
+  }
+
+  #footer {
+    color: #FFF;
+    margin: auto;
+    padding: 1.5em;
+    width: 60em;
+  }
+
+
+  img.github-ribbon {
+
+    border: 0;
+    left: 0;
+    position: fixed; /* Try `position: fixed;` and `position: absolute;` */
+    top: 0;
+
+    /*
+      Set up the hover effect here.
+      The `opacity` property sets the ribbon to 60% transparent,
+      and the `transition` property says handle any changes to
+      the `opacity` property with a 0.3-second transition.
+    */
+    opacity: 0.6;
+    transition: opacity 0.3s linear;
+  }
+
+  img.github-ribbon:hover {
+    /*
+      When we hover over the ribbon, switch to full opacity.
+      This will transition because of the transition property above.
+    */
+    opacity: 1;
+  }
+
+  img.drinkpic {
+    margin: 10px;
+  }
+
+  #dialog-modal {
+    background-color: #ddd;
+    border-radius:3px;
+/*    padding:8px;*/
+  }
+
+  input {
+    width: 350px;
+    height: 35px;
+}
+
+  h4 {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  form {
+    text-align: center;
+  }
+
+/*  select:last-child{
+    margin-top: 30px;
+  }*/
